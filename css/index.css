@@ -26,11 +26,11 @@ article.slide {
   animation: fade 25s infinite;
 }
 
-article.slide:nth-child(1) { background-image: url('../images/1.jpg'); animation-delay: 0s; }
-article.slide:nth-child(2) { background-image: url('../images/2.jpg'); animation-delay: 5s; }
-article.slide:nth-child(3) { background-image: url('../images/3.jpg'); animation-delay: 10s; }
-article.slide:nth-child(4) { background-image: url('../images/4.jpg'); animation-delay: 15s; }
-article.slide:nth-child(5) { background-image: url('../images/5.jpg'); animation-delay: 20s; }
+article.slide:nth-child(1) { background-image: url('images/1.jpg'); animation-delay: 0s; }
+article.slide:nth-child(2) { background-image: url('images/2.jpg'); animation-delay: 5s; }
+article.slide:nth-child(3) { background-image: url('images/3.jpg'); animation-delay: 10s; }
+article.slide:nth-child(4) { background-image: url('images/4.jpg'); animation-delay: 15s; }
+article.slide:nth-child(5) { background-image: url('images/5.jpg'); animation-delay: 20s; }
 
 @keyframes fade {
   0% { opacity: 0; }
@@ -273,3 +273,4 @@ footer {
   section.icons { flex-wrap: wrap; }
   section.hero h2 { font-size: 36px; }
 }
+
